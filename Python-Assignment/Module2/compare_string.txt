@@ -1,0 +1,8 @@
+Output:-
+
+case1)
+          z is not less than a
+
+case2)
+           Boston
+           New York

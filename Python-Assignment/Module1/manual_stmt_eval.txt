@@ -1,0 +1,17 @@
+Evaluate the following expression:-
+a=4*3/4+4/4+8-2+5/8
+
+Steps involved in manual calculation of the expresssion:-
+
+Step:1)First of all we check the precedence of all the operators used in the expression.
+Step:2)Now according to the precedence rule we proceed further:-
+Step:3) a=4*3/4+4/4+8-2+5/8
+Step:4) a=12/4+4/4+8-2+5/8
+Step:5) a=3+4/4+8-2+5/8
+Step:6) a=3+1+8-2+5/8
+Step:7) a=3+1+8-2+0.625
+Step:8) a=4+6+0.625
+Step:9) a=10.625
+
+Final result after executing the file-"stmt_eval.py"
+Result=10.625

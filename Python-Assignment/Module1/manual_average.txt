@@ -1,0 +1,13 @@
+Question)    r=s=t=5 #given values
+                   avg=r+s+t/3 #compute this
+
+Solution Steps:-
+1)First of all substitute the values of the variable in expression.
+2)avg=r+s+t/3
+3)avg=5+5+5/3
+4)avg=5+5+1.666
+5)avg=10+1.666
+6)avg=11.666
+
+Final output after executing -"avg_expr.py"
+avg= 11.666666666666666

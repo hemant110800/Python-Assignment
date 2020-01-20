@@ -1,0 +1,63 @@
+Evaluate the following expression:-
+
+a) a=4,b=2,x=5,y=4
+    result=5*b*b*x-3*a*y*y-8*b*b*x+10*a*y
+
+Steps used:-
+ 
+ 1)First of all substitute the value of the variables used in the expression.
+    result=5*2*2*5-3*4*4*4-8*2*2*5+10*4*4
+ 2) Now follow the precedence rule and solve the expression.
+ 3) result=10*2*5-3*4*4*4-8*2*2*5+10*4*4
+ 4) result=20*5-3*4*4*4-8*2*2*5+10*4*4
+ 5) result=100-3*4*4*4-8*2*2*5+10*4*4
+ 6) result=100-12*4*4-8*2*2*5+10*4*4
+ 7) result=100-48*4-8*2*2*5+10*4*4
+ 8) result=100-192-8*2*2*5+10*4*4
+ 9) result=100-192-16*2*5+10*4*4
+10) result=100-192-32*5+10*4*4
+11) result=100-192-160+10*4*4
+12) result=100-192-160+40*4
+13) result=100-192-160+160
+14) result=-92-160+160
+15) result=-92
+-------------------------------------------------------------------------------------------------------------------------------------------
+b)a=2,y=3,c=7
+calc=4*a*y/c-a*y/c
+
+Steps used:-
+ 
+ 1)First of all substitute the value of the variables used in the expression.
+    calc=4*2*3/7-2*3/7
+ 2) Now follow the precedence rule and solve the expression.
+ 3) calc=8*3/7-2*3/7
+ 4) calc=24/7-2*3/7
+ 5) calc=3.428-2*3/7
+ 6) calc=3.428-6/7
+ 7) calc=3.428-0.857
+ 8) calc=2.571
+-------------------------------------------------------------------------------------------------------------------------------------------
+c)a=4.4,b=0.0,c=4.2,y=3.0
+ ans=c+a*y*y/b
+
+Steps used:-
+ 
+ 1)First of all substitute the value of the variables used in the expression.
+    calc=4*2*3/7-2*3/7
+ 2) Now follow the precedence rule and solve the expression.
+ 3) ans=4.2+4.4*3.0*3.0/0.0
+ 4) ans=4.2+13.20*3.0/0.0
+ 5) ans=4.2+39.600/0.0
+ we get ZeroDivisionError because 1/0 is not-defined.
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+Final output after executing the file-"expr_eval.py" 
+
+Output:-
+
+result= -92
+calc= 2.571428571428571
+Traceback (most recent call last):
+  File "E:/Python-Assignment/Module1/expr_eval.py", line 10, in <module>
+    ans=c+a*y*y/b
+ZeroDivisionError: float division by zero
