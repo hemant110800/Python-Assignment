@@ -22,14 +22,9 @@ for i in s1:
     else:
         overall=digit[length]
         str1+=overall[int(i)]+" "
-    
-        
-    '''else:
-        overall=one_place[int(i)]
-        str1+=overall+" "+digit[length]+" "'''
     length-=1
 print(str1)
 if(str1=="seventy five "):
     winsound.PlaySound('70.wav', winsound.SND_FILENAME) 
     winsound.PlaySound('5.wav', winsound.SND_FILENAME)    
-#to hear other sounds we can download  and check sother .wav file
+#to hear other sounds we can download  and check other .wav file
