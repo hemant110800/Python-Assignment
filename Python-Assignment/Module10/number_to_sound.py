@@ -9,7 +9,7 @@ s1=list(number)
 length=len(s1)
 str1=""
 for i in s1:
-    if(len(number)==1 and i=='0'):
+    if(len(number)==1 and i=='0'):                #this program converts the number  into string format
         str1+=one_place[int(i)]
     if(i=='0'):
         length-=1
@@ -44,3 +44,23 @@ else:
 
 
 
+'''
+import winsound
+n=int(input("Enter number"))
+l=len(str(n))
+d1={0:winsound.PlaySound('0.wav',winsound.SND_FILENAME),1:winsound.PlaySound('1.wav',winsound.SND_FILENAME),2:winsound.PlaySound('2.wav',winsound.SND_FILENAME),3:winsound.PlaySound('3.wav',winsound.SND_FILENAME),4:winsound.PlaySound('4.wav',winsound.SND_FILENAME),5:winsound.PlaySound('5.wav',winsound.SND_FILENAME),6:winsound.PlaySound('6.wav',winsound.SND_FILENAME),7:winsound.PlaySound('7.wav',winsound.SND_FILENAME),8:winsound.PlaySound('8.wav',winsound.SND_FILENAME),9:winsound.PlaySound('9.wav',winsound.SND_FILENAME)}
+d2={10:winsound.PlaySound('10.wav',winsound.SND_FILENAME),11:winsound.PlaySound('11.wav',winsound.SND_FILENAME),12:winsound.PlaySound('12.wav',winsound.SND_FILENAME),13:winsound.PlaySound('13.wav',winsound.SND_FILENAME),14:winsound.PlaySound('14.wav',winsound.SND_FILENAME),15:winsound.PlaySound('15.wav',winsound.SND_FILENAME),16:winsound.PlaySound('16.wav',winsound.SND_FILENAME),17:winsound.PlaySound('17.wav',winsound.SND_FILENAME),18:winsound.PlaySound('18.wav',winsound.SND_FILENAME),19:winsound.PlaySound('19.wav',winsound.SND_FILENAME),20:winsound.PlaySound('20.wav',winsound.SND_FILENAME),30:winsound.PlaySound('30.wav',winsound.SND_FILENAME),40:winsound.PlaySound('40.wav',winsound.SND_FILENAME),50:winsound.PlaySound('50.wav',winsound.SND_FILENAME),60:winsound.PlaySound('60.wav',winsound.SND_FILENAME),70:winsound.PlaySound('70.wav',winsound.SND_FILENAME),80:winsound.PlaySound('80.wav',winsound.SND_FILENAME),90:winsound.PlaySound('90.wav',winsound.SND_FILENAME)}
+if l==1:
+    d1[0]
+elif l==2:
+    if n in d2:
+        d2[n]
+    else:
+        a=n//10
+        d2[a]
+        r=n%10
+        d1[r]
+        print("sr")
+By directly storing the sound in dictionary wecan play sounds of numbers
+
+'''
